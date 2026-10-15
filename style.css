@@ -41,6 +41,9 @@ body {
   border-radius: 8px;
   margin-bottom: 25px;
 }
+.navbar h2 {
+    color: #ffffff;
+}
 
 .nav-links {
   display: flex;
