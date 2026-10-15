@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bộ Sưu Tập - My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+  <header>
+    <nav class="navbar" aria-label="Menu chính">
+      <h2>MyWebsite</h2>
+      <ul class="nav-links">
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="gallery.html">Bộ Sưu Tập</a></li>
+        <li><a href="about.html">Giới Thiệu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <h1>Bộ sưu tập ảnh nghệ thuật</h1>
+    <p>Trang này sử dụng Flexbox và bộ chọn <code>:nth-child</code> để tạo kiểu bo viền so le[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).</p>
+
+    <!-- Yêu cầu 1: Có từ 5 ảnh trở lên; Yêu cầu 7 & 9: Flexbox + :nth-child -->
+    <div class="flex-gallery">
+      <div class="img-box">
+        <img src="https://picsum.photos/id/1018/600/400" alt="Ngọn núi phủ tuyết trắng phản chiếu dưới mặt hồ phẳng lặng">
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/id/1025/600/400" alt="Chú chó nhỏ quấn chăn ngồi ngoan ngoãn">
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/id/1039/600/400" alt="Thác nước chảy xiết giữa khu rừng nhiệt đới">
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/id/1043/600/400" alt="Bờ biển hoàng hôn với những đợt sóng vỗ nhẹ">
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/id/1050/600/400" alt="Cây cầu treo cổ kính phủ rêu phong qua thung lũng">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio. Thiết kế phục vụ bài tập khóa học.</p>
+  </footer>
+</body>
+</html>
